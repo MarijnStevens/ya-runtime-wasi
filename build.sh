@@ -9,5 +9,4 @@ echo Build for $ARCH
 PKG_CONFIG_ALLOW_CROSS=1 OPENSSL_STATIC=true \
 cargo build --release --target $TARGET 
 
-#mkdir -p ../yagna-binaries/$ARCH/
-#\cp "$TARGET_DIR/gvmkit" ../yagna-binaries/$ARCH/
+\cp "$TARGET_DIR/ya-runtime-wasi" ../yagna-binaries/plugins/

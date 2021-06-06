@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# packages:  libssl-dev:aarch64 libglib2.0
 ARCH="aarch64"
 TARGET="$ARCH-unknown-linux-gnu"
 TARGET_DIR="./target/$TARGET/release/"
